@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://static.pexels.com/photos/8819/warsaw.jpg);
+    width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  form{
+    margin-top:45px;
+  }
+  form .form-group{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    margin-top: 20px;
+  }
+  .form-group input{
+    background-color: rgba(3, 3, 3, 0.225);
+    height: 65%;
+    width: 200%;
+    outline: none;
+    border: 1px solid lightgrey;
+    padding-left: 40px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    color: white;
+
+  }
+  .form-group input:focus{
+    border-color: grey;
+  }
+
+  .check{
+    margin-left:20px;
+  }
+  
+  .check span{
+    font-size: 15px;
+    color: grey;
+  }
+  
+  .button input{
+    border: 1px solid rgba(255, 255, 0, 0.642);
+    width: 440px;
+    color: yellow;
+    padding-left: 0;
+    background: rgba(0, 0, 0, 0.515);
+    font-weight: 500px;
+    cursor: pointer;
+    height: 40px;
+  }
+  .button input:hover{
+    background-color: rgb(17, 17, 17);
+  }
+  
+ 
+.tab-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 550px;
+    background-color: rgba(3, 3, 3, 0.659);
+    border-radius: 5px;
+    box-shadow:  5px 5px 10px rgb(40, 39, 39);
+
+}
+.tab-form .tab-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+}
+.tab-form .tab-header > div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: yellow;
+    background-color: rgb(10, 10, 10);
+
+}
+.tab-form .tab-header > div:hover{
+  background-color: rgba(36, 34, 34, 0.848);
+}
+.tab-form .tab-header > div.active {
+    border: 1px none ;
+    
+    background: rgb(220, 220, 9);
+}
+.free{
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 30px;
+    color: white;
+}
+
